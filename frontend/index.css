@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: 847px;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgray;
+}
+
+main{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 847px;
+    margin-left: 0px;
+    background-color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #7B7B7B;
+}
+
+.tag{
+    margin-right: 85px;
+}
+
+h3, input{
+    font-size: 36px;
+    font-weight: 400;
+    color: #7B7B7B;
+}
+
+.middle-input{
+    margin-top: 12px;
+}
+
+input{
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+
+#Sub-exp{
+    padding: 15px 0;
+}
+
+.mini-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 36px;
+}
+
+.Exp-card, .Cono-card, .Reco-card, .Gerenal-header{
+    display: flex;
+    flex-direction: column;
+    margin-left: 103px;
+    margin-right: 103px;
+}
+
+
+.any-exp{
+    background-color: #C4C4C4;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 3.87px;
+    padding-bottom: 3.87px;
+    margin-right: 9px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#any-exp-input{
+    background-color: white;
+    width: 191px;
+}
+
+.any-cono{
+    background-color: #C4C4C4;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 49px;
+    padding-bottom: 29px;
+    margin-right: 30px;
+    margin-bottom: 47px;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.volver{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 87px;
+}
+
+.a-volver{
+    margin: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #C4C4C4;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.Exp-dir{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 83px;
+    height: 83px;
+    border-radius: 50px;
+}
+
+.Text-content{
+    padding-left: 27px;
+}
+
+.Exp-card-form{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Exp-any, .Cono-any{
+    display: flex;
+    flex-direction: row;
+}
+
+.Exp-any{
+    margin-top: 12px;
+}
+
+input::placeholder{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.Cono-dir{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Reco-card-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.parrafo, textarea{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+textarea{
+    font-family: 'Roboto';
+    width: 420px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+textarea::placeholder{
+    font-style: italic;
+    font-size: 20px;
+}
+
+button{
+    background-color: #C4C4C4;
+}

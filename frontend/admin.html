@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarollo de software IV</title>
+    <link rel="stylesheet" href="clean.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <!-- Section Titulo -->
+        <section class="Gerenal-header">
+            <h1>Luis Milla</h1>
+            <h2 style="color: #9F9F9F;">Software Engineer</h2>
+        </section>
+
+        <!-- Section Experiencia -->
+        <section class="Exp-content">
+            <form id="Exp-card" class="Exp-card">
+                <section class="mini-header">
+                    <h2>Experiencia</h2>
+                    <button type="submit">Agregar</button>
+                </section>
+                <section class="Exp-card-form">
+                    <section>
+                        <a><img src="https://via.placeholder.com/100x100/FFFF00/000000?text=LM"></a>
+                    </section>
+                    <section class="Text-content">
+                        <input name="Titulo-exp" type="text" placeholder="Experiencia" style="color: black;">
+                        <div id="Sub-exp">
+                            <input name="Lugar-exp" type="text" placeholder="Lugar de la experiencia">
+                            <input class="middle-input" name="Fecha-exp" type="text" placeholder="Fecha de la experiencia">
+                        </div>
+                        <textarea name="Desc-exp" id="Desc-exp" rows="8" placeholder="Descripcion..."></textarea>
+                        <section class="Exp-any">
+                            <input class="any-exp" id="any-exp-input" name="Exp1" type="text" placeholder="Area">
+                            <input class="any-exp" id="any-exp-input" name="Exp2" type="text" placeholder="Area">
+                        </section>
+                    </section>
+                </section>
+            </form>
+        </section>
+
+        <!-- Section Conocimientos -->
+        <form id="Cono-card" class="Cono-card">
+            <section class="mini-header">
+                <h2>Conocimientos</h2>
+                <button type="submit">Agregar</button>
+            </section>
+            <section class="Cono-any">
+                <input name="Cono1" id="Cono1" class="any-cono-input" type="text" placeholder="Conocimiento">
+            </section>
+        </form>
+
+        <!-- Section Recomendaciones -->
+        <form id="Reco-card" class="Reco-card">
+            <section class="mini-header">
+                <h2>Recomendaciones</h2>
+                <button type="submit">Agregar</button>
+            </section>
+            <section>
+                <section class="Reco-card-form">
+                    <section class="Sub-reco">
+                        <input name="Reco" id="Reco" type="text" placeholder="Referencia" style="color: black;">
+                        <input class="middle-input" name="Reco-cargo" id="Reco-cargo" type="text" placeholder="Cargo">
+                    </section>
+                    <section class="tag">
+                        <a><img src="https://via.placeholder.com/100x100/FFFF00/000000?text=LM"></a>
+                    </section>
+                </section>
+                <section>
+                    <textarea name="Desc-reco" id="Desc-reco" rows="8" placeholder="Descripcion..."></textarea>
+                </section>
+            </section>
+        </form>
+            <section class="volver">
+                <a href="index.html" class="a-volver">Volver</a>    
+            </section>
+    </main>
+    <script src="create.groups.js"></script>
+</body>
+</html>
