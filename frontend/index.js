@@ -49,7 +49,7 @@
         const { group2 } = await recomendacionRaw.json();
         console.log(group2);
         group2.forEach(({ recomendador, cargo, descripcion }) => {
-            const template = `<section>
+            const template = `<section class="card">
                                 <section class="Reco-card-form">
                                     <section class="Sub-reco">
                                         <h2 style="color: black;">${recomendador}</h2>
